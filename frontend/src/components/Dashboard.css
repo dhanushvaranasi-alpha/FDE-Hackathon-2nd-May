@@ -1,0 +1,190 @@
+.dashboard-empty {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.dashboard-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.tier-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.65rem;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.tier-emergency {
+  background: #450a0a;
+  color: #fecaca;
+  border: 1px solid #f87171;
+}
+
+.tier-urgent {
+  background: #431407;
+  color: #fed7aa;
+  border: 1px solid #fb923c;
+}
+
+.tier-soon {
+  background: #422006;
+  color: #fde68a;
+  border: 1px solid #fbbf24;
+}
+
+.tier-routine {
+  background: #172554;
+  color: #bfdbfe;
+  border: 1px solid #60a5fa;
+}
+
+.tier-self_care {
+  background: #052e16;
+  color: #bbf7d0;
+  border: 1px solid #4ade80;
+}
+
+.tier-insufficient_info {
+  background: #1e293b;
+  color: #cbd5e1;
+  border: 1px solid #64748b;
+}
+
+.confidence-pill {
+  font-size: 0.78rem;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  padding: 0.25rem 0.5rem;
+  border-radius: 999px;
+}
+
+.dashboard-meta {
+  font-size: 0.88rem;
+  color: var(--muted);
+  margin: 0 0 0.75rem;
+}
+
+.dashboard-alert {
+  border-radius: 10px;
+  padding: 0.65rem 0.85rem;
+  margin-bottom: 0.85rem;
+  font-size: 0.9rem;
+}
+
+.dashboard-alert strong {
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.dashboard-alert--em {
+  background: #450a0acc;
+  border: 1px solid #f87171;
+}
+
+.dashboard-alert--ur {
+  background: #431407cc;
+  border: 1px solid #fb923c;
+}
+
+.dashboard-alert--mh {
+  background: #3b0764aa;
+  border: 1px solid #c084fc;
+}
+
+.dashboard-em-contact {
+  margin: 0.35rem 0 0;
+  font-size: 1rem;
+}
+
+.dashboard-em-contact a {
+  font-weight: 700;
+}
+
+.dashboard-block {
+  margin-bottom: 1rem;
+}
+
+.dashboard-block h3 {
+  margin: 0 0 0.35rem;
+  font-size: 0.92rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.dashboard-block ul {
+  margin: 0;
+  padding-left: 1.15rem;
+}
+
+.dashboard-block--flags {
+  border-left: 3px solid var(--danger);
+  padding-left: 0.65rem;
+}
+
+.condition-list .likelihood {
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.condition-list .rationale {
+  font-size: 0.88rem;
+  color: var(--muted);
+  margin-top: 0.2rem;
+}
+
+.dashboard-disclaimer {
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.dashboard-disclaimer p {
+  margin: 0;
+}
+
+.dashboard-expand {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.dashboard-block--clinics {
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px dashed var(--border);
+}
+
+.clinic-meta {
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin: 0 0 0.5rem;
+}
+
+.clinic-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.clinic-list a {
+  font-weight: 600;
+}
+
+.clinic-snippet {
+  font-size: 0.82rem;
+  color: var(--muted);
+  margin-top: 0.15rem;
+}
